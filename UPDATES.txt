@@ -1,0 +1,4 @@
+1. base url jadi localhost
+2. main_model di simpen di autoload aja biar gak usah di panggil di tiap page (\application\config\autoload.php)
+3. perbaikan css
+4. perbaikan struktur <div> liat page_structure.txt

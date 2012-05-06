@@ -1,0 +1,507 @@
+ reset*/
+html, body, div, span, object, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, address, code, img, 
+email, strong, dl, dt, dd, ol, ul, li,
+fieldset, form, label {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size : 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body{
+  line-height: 1.5;
+  font-family: helvetica, arial, sans-serif;
+}
+/* end reset */
+
+ol, ul {
+  list-style: none;
+}
+
+/* Body */
+body{
+  background-image:url("../img/site/bg.jpg");
+}
+
+/* Header */
+
+#header{
+  background-image: url("../img/site/header.png");
+  height:130px;
+  /*margin: 0px auto;*/
+  /*position: relative;*/
+}
+
+
+#header h1{
+  background-image: url("../img/site/logo.png") ;
+  width: 321px;
+  height: 67px;
+  text-indent: -9999px;
+  float: left;
+  margin: 15px 0px 0px 30px;
+
+}
+
+#header h1 a{
+  width: 410px;
+  height: 87px;
+  display: block;
+}
+
+/* end header */
+
+/* navigation */
+#nav{
+  background-image: url("../img/site/nav_bg.png");
+  height:70px;
+  width:960px;
+  margin: 0px auto;
+  position:relative ;
+}
+
+#nav ul{
+  
+  padding: 0px 0px 0px 30px;
+  margin-left: 10px;
+
+}
+
+#nav ul li{
+  float: left;
+
+  margin: 10px 10px 0px 0px;
+  /*background-image: url("../img/site/buttonbg.png");*/
+  width:106px;
+  height:36px;
+}
+
+#nav ul li a{
+  color: #000300;
+  font-size: 18;
+  font-family: toonish;
+  
+  text-decoration: none;
+  display: block;
+  width:96px;
+  height:30px;
+  background-color: none;
+  position: relative;
+  margin: 6px 5px;
+}
+
+#nav ul li a:hover{
+  text-decoration: none;
+  color: white;
+
+}
+
+#nav ul li:hover{
+
+  margin: 10px 10px 0px 0px;
+  background-image: url("../img/site/buttonbg.png");
+  width:106px;
+  height:36px;
+
+}
+/*end navigator */
+
+/* load animation */
+#loading {
+  text-align: center;
+}
+/* slider */
+
+/* slider */
+#slider {
+  margin:0 auto;
+  width:820px;
+  height:350px;
+  margin-top:0px;
+  background-image:url("../img/slider/slider_bg.png");
+}
+.rap {
+  width:820px;
+  height:275px;
+  margin:0 6px;
+  top:0px;
+  position:relative;
+}
+ul.pagination {
+  list-style:none;
+  padding:0;
+  margin:0;
+  margin:0 auto;
+  margin-top:0px;
+  text-align: center;
+  float:right;
+  margin-right:5px;
+}
+ul.pagination li {
+  float:left;
+  width:24px;
+  margin-right:4px;
+}
+ul.pagination li a {
+  display: block;
+  background-image:url("../img/site/pagi.jpg");
+  width:24px;
+  height:19px;
+  padding-top:6px;
+  background-position: 0 -25px;
+  text-decoration: none;
+  color:#238bc8;
+  font-size:12px;
+}
+ul.pagination li.current a {
+  background-image:url("../img/site/pagi.jpg");
+  width:24px;
+  background-position: 0 0;
+  color:#454646;
+}
+ul.pagination li a:hover {
+  background-image:url("../img/site/pagi.jpg");
+  background-position: 0 0;
+}
+a.prev {
+  background-image:url("../img/site/arrowleft.png");
+  height:35px;
+  width:43px;
+  display: block;
+  text-indent: -9999px;
+  float:left;
+  position: relative;
+  top:-135px;
+  margin-left:-25px;
+}
+a.next {
+  background-image:url("../img/site/arrowright.png");
+  height:35px;
+  width:43px;
+  display: block;
+  text-indent: -9999px;
+  float: right;
+  position: relative;
+  top:-135px;
+  margin-right:-25px;
+}
+/* end slider */
+
+/*content*/
+#home_content{
+  background-image:url("../img/site/home_content.png");
+  /*background-color: red;*/
+  width:969px;
+  height:649px;
+  /*float: left;*/
+  margin: 0px auto;
+  position: relative;
+  
+
+}
+
+#home_content #welcome h2{
+  font: 24px "toonish", "Trebuchet MS", Verdana, sans-serif;
+  padding: 40px;
+}
+
+#home_content #welcome p{
+  font: 12px "georgia", "Trebuchet MS", Verdana, sans-serif;
+  margin: 0px 0px 10px 40px; 
+  text-align: justify;
+  width: 92%;
+}
+
+#home_content #latestproduct h2{
+  background: url("../img/site/label.png") ;
+  margin: 20px 0px 10px 20px;
+  width:217px;
+  height:60px;
+
+}
+/* product */
+#home_content .product{
+  background-image:url("../img/site/box_latestprod.png");
+  margin: 10px 10px 40px 20px;
+  padding: 1px 0px 0px 0px;
+  width:209px;
+  height:251px;
+  float: left;
+}
+
+#home_content .product a{
+  margin-top: 20px;
+  margin-left: 25px;
+  display: block;
+
+}
+
+#home_content .product p{
+  margin: 15px 0px 0px 15px;
+  font: 12px "georgia", "Trebuchet MS", Verdana, sans-serif;
+  color: #DDD;
+}
+
+/* contactUs */
+
+#contactUs {
+  text-align:justify;
+  background-image: url("../img/site/content.png");
+  width:970px;
+  height:991px;
+  margin: 0px auto;
+
+}
+
+
+#contactUs #title h2{
+  background-image: url("../img/site/title.png");
+  width:269px;
+  height:60px;
+  font: "Toonish", "Trebuchet MS", Verdana, sans-serif;
+  text-align: bottom;
+
+  margin: 20px 0px 40px 20px;
+}
+
+#contactUs #title p{
+  font: 12px "georgia", "Trebuchet MS", Verdana, sans-serif;
+  margin: 0px 0px 10px 40px; 
+  text-align: justify;
+  width: 92%;
+}
+
+#contactUs #inquiries {
+  width: 50%;
+  float: left;
+  color: #6d6a6c;
+  margin: 0px 0px 10px 40px;
+  font: 12px "georgia", "Trebuchet MS", Verdana, sans-serif;
+}
+
+#contactUs #inquiries h3{
+  font: "toonish";
+  margin-left: 40px;
+}
+
+#contactUs #inquiries label{
+  color: green;
+}
+
+#contactUs #inquiries .guestbook{
+  
+  font: 12px "georgia", "Trebuchet MS", Verdana, sans-serif;
+  margin-top: 10px;
+  /*padding: 1em;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  margin-bottom: 10px;*/
+  
+
+}
+
+#contactUs #inquiries .guestbook label{
+  color: green;
+}
+
+#contactUs #inquiries .guestbook input[type=text], textarea {
+    display: block;
+    margin: 0 0 1em 0;
+    width:90%;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    padding: 0.5em;
+    font: 12px georgia;
+    border: 1px solid #6d6a6c;
+    box-shadow: 0px 1px 0px white;
+    -moz-box-shadow: 0px 1px 0px white;
+    -webkit-box-shadow: 0px 1px 0px white;
+}
+
+#contactUs #inquiries .guestbook input[type=submit] {
+    border: none;
+    margin-right: 1em;
+    padding: 6px;
+    text-decoration: none;
+    font-size: 12px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    background: #348075;
+    color: white;
+    box-shadow: 0 1px 0 white;
+    -moz-box-shadow: 0 1px 0 white;
+    -webkit-box-shadow: 0 1px 0 white;
+}
+
+#contactUs #inquiries .guestbook input[type=submit]:hover {
+    background: #287368;
+    cursor: pointer;
+}
+
+#contactUs #inquiries .guestbook .error {
+    padding-top: 10px;
+    color: red;
+}
+
+
+#contactUs #agent {
+    float: left;
+    color: #6d6a6c;
+    font: 12px "georgia", "Trebuchet MS", Verdana, sans-serif;
+}
+
+#contactUs #agent h3{
+  font: "toonish";
+  /*margin-left: 40px;*/
+  color: green;
+}
+
+/* end contactUs */
+
+/*AboutUs*/
+#AboutUS {
+  text-align:justify;
+  background-image: url("../img/site/content.png");
+  width:970px;
+  height:991px;
+  margin: 0px auto;
+
+}
+
+#AboutUS h2{
+  
+}
+
+#AboutUs p{
+  font: 12px "georgia", "Trebuchet MS", Verdana, sans-serif;
+  margin: 0px 0px 10px 40px; 
+  text-align: justify;
+  width: 92%;
+}
+/* End AboutUS*/
+/* end content */
+
+
+
+/* footer */
+#footer{
+  background-image:url("../img/site/linefooter.png");
+  height:8px;
+  margin: 10px 0px 40px 0px;
+  color: #8c6a42;
+}
+
+#contact{
+  /*background-image:url("../img/site/contactfooter.png") no-repeat;*/
+  width:250px;
+  height:130px;
+  margin: 30px 0px 100px 100px;
+  float: left;
+}
+
+#contact h2{
+  background-image:url("../img/site/contactfooter.png");
+  width:129px;
+  height:21px;
+}
+
+#contact p{
+  text-align:left;
+  font: 12px "georgia", "Trebuchet MS", Verdana, sans-serif;
+}
+
+#social{
+  /*background-image:url("../img/site/getsocial.png");*/
+  width:250px;
+  height:20px;
+  margin: 30px 0px 100px 100px;
+  float: left;
+}
+
+#social h2{
+  background-image:url("../img/site/getsocial.png");
+  width:129px;
+  height:21px;
+}
+
+#social p{
+  text-align:left;
+  font: 12px "georgia", "Trebuchet MS", Verdana, sans-serif;
+}
+
+#social ul li{
+  float: left;
+  padding: 0px 10px 40px 0px;
+  margin: 10px 0px 0px 0px;
+
+}
+
+#copyright {
+  font: 15px helvetica;
+  color: #8c6a42;
+  text-align: right;
+  margin-right: 200px;
+  padding-top: 225px;
+}
+/* end footer */
+
+#content #login_form  {
+    width: 300px;
+    border: 1px solid white;
+    margin: 100px auto 0;
+    padding: 1em;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    font: 14px "georgia", "Trebuchet MS", Verdana, sans-serif;
+}
+
+#content #login_form  h1{
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #6d6a6c;
+}
+
+#content #login_form label{
+  color: green;
+}
+
+#content #login_form input[type=text], input[type=password] {
+    display: block;
+    margin: 0 0 1em 0;
+    width:100%;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    padding: 1em;
+    font: 14px georgia;
+    border: 1px solid #e0e0e0;
+}
+
+#content #login_form input[type=submit] {
+    border: none;
+    margin-right: 1em;
+    padding: 6px;
+    text-decoration: none;
+    font-size: 12px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: green;
+    color: white;
+    box-shadow: 0 1px 0 white;
+    -moz-box-shadow: 0 1px 0 white;
+    -webkit-box-shadow: 0 1px 0 white;
+}
+
+#content #login_form input[type=submit]:hover {
+    background: #6d6a6c;
+    cursor: pointer;
+}
+
+#content #login_form .error {
+    padding-top: 10px;
+    color: red;
+}
